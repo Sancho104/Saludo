@@ -118,14 +118,14 @@ header {
 .vertical-line-container > .line {
   width: 1px;
   height: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   opacity: 0.15;
   margin: auto;
   border: none;
 }
 
 .account > .signup {
-  color: #7FEFCF;
+  color: #7fefcf;
   background: inherit;
   border: none;
   outline: none;
@@ -163,7 +163,9 @@ header {
   }
 }
 @media (max-width: 850px) {
-  .options, .vertical-line-container, .search-account {
+  .options,
+.vertical-line-container,
+.search-account {
     display: none;
   }
 
@@ -320,7 +322,7 @@ header {
 }
 
 /* Двойной клик по кнопкам вперед/назад вызывает выделение всех элементов слайдера,
-поэтому предотвращаем это */
+    поэтому предотвращаем это */
 .slider::-moz-selection {
   background: transparent;
   color: #fff;
@@ -398,7 +400,7 @@ header {
   line-height: 25px;
   text-decoration: none;
   position: absolute;
-  background: linear-gradient(180deg, #7FEFCF 0%, #69DBC3 100%);
+  background: linear-gradient(180deg, #7fefcf 0%, #69dbc3 100%);
   border-radius: 12px;
   outline: none;
   bottom: 6%;
@@ -469,13 +471,13 @@ header {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .work-container {
   width: 95%;
   margin: 40px;
-  background: #0A0A0A;
+  background: #0a0a0a;
 }
 
 .work-headler {
@@ -597,7 +599,7 @@ header {
 .purchasing-options {
   width: 95%;
   margin: auto;
-  background: #0A0A0A;
+  background: #0a0a0a;
   min-height: 580px;
 }
 
@@ -614,7 +616,7 @@ header {
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 100px;
 }
 
@@ -648,7 +650,7 @@ header {
 .item-purchasing-headler {
   height: 43%;
   border-bottom: 1px solid;
-  border-color: #0A0A0A;
+  border-color: #0a0a0a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -659,7 +661,7 @@ header {
 }
 
 .span-green {
-  color: #7FEFCF;
+  color: #7fefcf;
   margin-left: 8px;
 }
 
@@ -669,7 +671,7 @@ header {
 }
 
 .span-violet {
-  color: #EC8EFC;
+  color: #ec8efc;
   margin-left: 8px;
 }
 
@@ -684,7 +686,7 @@ header {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .slider-music-container {
