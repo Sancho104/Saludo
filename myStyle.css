@@ -1,15 +1,12 @@
 @charset "UTF-8";
 @font-face {
   font-family: Favorit;
-  /* Имя шрифта */
+  font-weight: 500;
   src: url("Fonts/favoritbookc.otf");
-  /* Путь к файлу со шрифтом */
 }
 @font-face {
   font-family: Sharp Grotesk Bold 11;
-  /* Имя шрифта */
   src: url("Fonts/SharpGroteskBold11-Regular.ttf");
-  /* Путь к файлу со шрифтом */
 }
 * {
   margin: 0;

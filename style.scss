@@ -1,12 +1,13 @@
 @font-face {
-    font-family: Favorit; /* Имя шрифта */
-    src: url('Fonts/favoritbookc.otf'); /* Путь к файлу со шрифтом */
-   }
+    font-family: Favorit; 
+    font-weight: 500;
+    src: url('Fonts/favoritbookc.otf'); 
+}
 @font-face {
-    font-family: Sharp Grotesk Bold 11; /* Имя шрифта */
-    src: url('Fonts/SharpGroteskBold11-Regular.ttf'); /* Путь к файлу со шрифтом */
-   }
-$maxWidth: max-width;
+    font-family: Sharp Grotesk Bold 11; 
+    src: url('Fonts/SharpGroteskBold11-Regular.ttf'); 
+}
+
 
 *{
     margin: 0;
@@ -25,10 +26,7 @@ body {
     height: 800px;
     margin-top: 80px;
 }
-.head{
-  
-    // height: 800px;
-}
+
 header{
     background-color: #131313;
     opacity: 0.9;
