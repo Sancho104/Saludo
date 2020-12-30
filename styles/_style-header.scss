@@ -1,0 +1,160 @@
+header {
+    background-color: #131313;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 100;
+}
+.head-right {
+    display: flex;
+    width: calc(100% - 100px);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.burger {
+    width: 100px;
+    height: 80px;
+}
+
+.options {
+    width: 323px;
+    display: flex;
+    justify-content: space-between;
+}
+.options a {
+    text-decoration: none;
+    color: white;
+    font-family: favorit;
+}
+.search-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search {
+    margin: auto;
+    width: auto;
+    height: 40px;
+}
+
+.search > input::placeholder {
+    color: black;
+}
+.search > input {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 50px;
+}
+.search > i {
+    position: relative;
+    left: 40px;
+    top: 3px;
+    transform: scale(1.1);
+}
+
+.search i:hover {
+    color: blue;
+}
+.vertical-line-container {
+    margin: auto 20px;
+    // width: 1px;
+    height: 40px;
+}
+.vertical-line-container > .line {
+    width: 1px;
+    height: 40px;
+    background: #ffffff;
+    opacity: 0.15;
+    margin: auto;
+    border: none;
+}
+.account > .signup {
+    color: #7fefcf;
+    background: inherit;
+    border: none;
+    outline: none;
+}
+.account > .login {
+    color: white;
+    background: inherit;
+    border: none;
+    outline: none;
+    // margin-right: 30px;
+}
+.user {
+    background-color: #131313;
+    width: 40px;
+}
+.user > button {
+    background-color: #131313;
+    outline: none;
+    border: none;
+}
+.user-display {
+    display: none;
+}
+@media (max-width: 1420px) {
+    .options {
+        width: 250px;
+    }
+    .head-slide {
+        height: 700px;
+    }
+}
+@media (max-width: 850px) {
+    .options,
+    .vertical-line-container,
+    .search-account {
+        display: none;
+    }
+    .logo {
+        margin-left: calc(50% - 50px);
+    }
+    // .head-container{
+    //     background-size: 100% ;
+    //     background-repeat: no-repeat;
+    //     background-position-y: 80px;
+    // }
+    .user-display {
+        display: inline;
+    }
+    .login {
+        margin-right: 5px;
+    }
+    .head-slide {
+        height: 500px;
+    }
+}
+@media (max-width: 500px) {
+    .burger {
+        height: 68px;
+    }
+    header {
+        height: 68px;
+    }
+    .head-right {
+        height: 68px;
+    }
+    .head-slide {
+        height: 300px;
+    }
+}

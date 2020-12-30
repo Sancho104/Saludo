@@ -4,7 +4,7 @@ $('.slider').slick({
 	infinite: true,
     slidesToShow: 5,
 	slidesToScroll: 1,
-	appendArrows: $('.navy'),
+	appendArrows: $('.navy-super-six'),
 	prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
 	nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 	// respondTo : 'slider',
@@ -15,8 +15,6 @@ $('.slider').slick({
 			  slidesToShow: 4,
 			  slidesToScroll: 1,
 			  infinite: true,
-			  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			}
 		  },
 		{
@@ -25,8 +23,6 @@ $('.slider').slick({
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		},
 		{
@@ -35,8 +31,6 @@ $('.slider').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		},
 		{
@@ -45,8 +39,6 @@ $('.slider').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		}
 
@@ -58,6 +50,9 @@ $('.slider').slick({
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
+		appendArrows: $('.navy-categories'),
+		prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+		nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 		responsive: [
 	
 			{
@@ -66,9 +61,6 @@ $('.slider').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			},
 			{
@@ -77,9 +69,6 @@ $('.slider').slick({
 				slidesToShow: 2,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			},
 			{
@@ -88,21 +77,18 @@ $('.slider').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			}]		
 		})
 // )
 		,
-	
-
-		$('.slider-acting').slick(
-			{
+		$('.slider-acting').slick({
 			infinite: true,
 			slidesToShow: 4,
 			slidesToScroll: 1,
+			appendArrows: $('.navy-acting'),
+			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			responsive: [
 				{
 					breakpoint: 1700,
@@ -110,9 +96,7 @@ $('.slider').slick({
 					  slidesToShow: 3,
 					  slidesToScroll: 1,
 					  infinite: true,
-					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
+
 					}
 				  },
 				{
@@ -122,8 +106,7 @@ $('.slider').slick({
 					slidesToScroll: 1,
 					infinite: true,
 					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
+
 				  }
 				},
 				{
@@ -133,9 +116,7 @@ $('.slider').slick({
 					slidesToScroll: 1,
 					infinite: true,
 					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
-				  }
+			  }
 				}]		
 			}
 			),
@@ -154,8 +135,6 @@ $('.slider').slick({
 				  slidesToShow: 4,
 				  slidesToScroll: 1,
 				  infinite: true,
-				  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 				}
 			  },
 			{
@@ -164,8 +143,6 @@ $('.slider').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			},
 			{
@@ -174,8 +151,6 @@ $('.slider').slick({
 				slidesToShow: 2,
 				slidesToScroll: 1,
 				infinite: true,
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			},
 			{
@@ -184,14 +159,95 @@ $('.slider').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				infinite: true,
-		prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-		nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			}
 	
 		  ]
 		
 		}),
+		$('.slider-entertainment').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			appendArrows: $('.navy-entertainment'),
+			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
+			responsive: [
+				{
+					breakpoint: 1700,
+					settings: {
+					  slidesToShow: 3,
+					  slidesToScroll: 1,
+					  infinite: true,
+
+					}
+				  },
+				{
+				  breakpoint: 1100,
+				  settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					  appendArrows: $('.navy-acting'),
+
+				  }
+				},
+				{
+				  breakpoint: 500,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					  appendArrows: $('.navy-acting'),
+			  }
+				}]		
+			}
+			),
+			$('.slider-sport').slick({
+				infinite: true,
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				appendArrows: $('.navy-sport'),
+				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
+				// respondTo : 'slider',
+				responsive: [
+					{
+						breakpoint: 1600,
+						settings: {
+						  slidesToShow: 4,
+						  slidesToScroll: 1,
+						  infinite: true,
+						}
+					  },
+					{
+					  breakpoint: 1300,
+					  settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					},
+					{
+					  breakpoint: 1000,
+					  settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					},
+					{
+					  breakpoint: 600,
+					  settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					}
+			
+				  ]
+				
+				})
 	)
 
 
