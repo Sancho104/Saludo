@@ -2,7 +2,7 @@
     // margin-bottom: 100px;
     width: 95%;
     margin: auto;
-    background: #0a0a0a;
+    background: $color-background-content;
     // min-height: 580px;
 }
 .charitty-items-wrap {
@@ -11,7 +11,7 @@
 .charitty-headler {
     width: 95%;
     margin: auto;
-    font-family: Sharp Grotesk Bold 12;
+    font-family: Sharp Grotesk Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -22,14 +22,13 @@
     color: white;
     padding-top: 103px;
 }
+
 .charitty-headler span {
-    color: #7FEFCF;
+    color: #7fefcf;
 }
 .charitty-content {
-
 }
 .charitty-items-wrap {
-
     width: 64%;
     margin: 78px auto;
 }
@@ -51,7 +50,6 @@
     justify-content: center;
 }
 .charitty-item-icon img {
-
 }
 .charitty-item-text {
     font-family: Favorit;
@@ -59,35 +57,36 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    color: #D1D1D1;
+    color: #d1d1d1;
 }
 .charitty-button-wrap {
     text-align: center;
     position: relative;
     top: 35px;
+    button {
+        background: $color-button-blue;
+        width: 302px;
+        height: 70px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: Favorit;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 }
-.charitty-button-wrap button {
-    background: #417EDB;
-    width: 302px;
-    height: 70px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    color: white;
-    font-family: Favorit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-@media(max-width:1300px) {
+
+@media (max-width: 1300px) {
     .charitty-items-wrap {
         width: 85%;
     }
 }
-@media(max-width:950px) {
+@media (max-width: 950px) {
     .charitty-items-wrap {
         width: 95%;
         margin-top: 20px;
@@ -96,18 +95,18 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
+
         // align-items: center;
         // padding: 35px;
     }
     .charitty-item-icon {
-    display: block;
-    margin-bottom: 22px;
+        display: block;
+        margin-bottom: 22px;
     }
     .charitty-headler {
         font-size: 29px;
         line-height: 37px;
-        padding-top: 72px; 
+        padding-top: 72px;
     }
     .charitty-button-wrap button {
         width: 240px;
@@ -115,5 +114,11 @@
     }
     .charitty-button-wrap {
         top: 27px;
+    }
+}
+@media (max-width: 500px) {
+    .charitty-item-text {
+        font-size: 16px;
+        line-height: 25px;
     }
 }

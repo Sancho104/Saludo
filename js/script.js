@@ -105,7 +105,6 @@ $('.slider').slick({
 					slidesToShow: 2,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
 
 				  }
 				},
@@ -115,7 +114,6 @@ $('.slider').slick({
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
 			  }
 				}]		
 			}
@@ -188,7 +186,6 @@ $('.slider').slick({
 					slidesToShow: 2,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
 
 				  }
 				},
@@ -198,7 +195,6 @@ $('.slider').slick({
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
 			  }
 				}]		
 			}

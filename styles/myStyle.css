@@ -1,13 +1,28 @@
 @charset "UTF-8";
 @font-face {
-  font-family: Sharp Grotesk Bold 11;
-  src: url("Fonts/SharpGroteskBold11-Regular.ttf");
+  font-family: Favorit;
+  font-weight: 300px;
+  src: url("../Fonts/favorit_light-webfont.woff");
+}
+@font-face {
+  font-family: Favorit;
+  font-weight: 300;
+  src: url("../Fonts/favorit_light-webfont.woff2");
+}
+@font-face {
+  font-family: Sharp grotesk bold;
+  font-weight: 500;
+  src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff");
+}
+@font-face {
+  font-family: Sharp grotesk bold;
+  font-weight: 500;
+  src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff2");
 }
 header {
   background-color: #131313;
   opacity: 0.9;
   display: flex;
-  flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
   height: 80px;
@@ -165,6 +180,7 @@ header {
 @media (max-width: 500px) {
   .burger {
     height: 68px;
+    width: 68px;
   }
 
   header {
@@ -261,8 +277,24 @@ header {
 }
 
 @font-face {
-  font-family: Sharp Grotesk Bold 11;
-  src: url("Fonts/SharpGroteskBold11-Regular.ttf");
+  font-family: Favorit;
+  font-weight: 300px;
+  src: url("../Fonts/favorit_light-webfont.woff");
+}
+@font-face {
+  font-family: Favorit;
+  font-weight: 300;
+  src: url("../Fonts/favorit_light-webfont.woff2");
+}
+@font-face {
+  font-family: Sharp grotesk bold;
+  font-weight: 500;
+  src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff");
+}
+@font-face {
+  font-family: Sharp grotesk bold;
+  font-weight: 500;
+  src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff2");
 }
 .charitty-container {
   width: 95%;
@@ -273,7 +305,7 @@ header {
 .charitty-headler {
   width: 95%;
   margin: auto;
-  font-family: Sharp Grotesk Bold 12;
+  font-family: Sharp Grotesk Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -286,7 +318,7 @@ header {
 }
 
 .charitty-headler span {
-  color: #7FEFCF;
+  color: #7fefcf;
 }
 
 .charitty-items-wrap {
@@ -320,7 +352,7 @@ header {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 
 .charitty-button-wrap {
@@ -328,7 +360,6 @@ header {
   position: relative;
   top: 35px;
 }
-
 .charitty-button-wrap button {
   background: #417EDB;
   width: 302px;
@@ -381,6 +412,12 @@ header {
 
   .charitty-button-wrap {
     top: 27px;
+  }
+}
+@media (max-width: 500px) {
+  .charitty-item-text {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 .slide-head {
@@ -563,7 +600,7 @@ header {
 
 .work-headler span {
   color: white;
-  font-family: Sharp Grotesk Bold 12;
+  font-family: Sharp Grotesk bold;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -654,6 +691,11 @@ header {
   .work-item {
     width: 272px;
   }
+
+  .work-item-content-text {
+    font-size: 15px;
+    line-height: 19px;
+  }
 }
 .purchasing-options-container {
   margin-bottom: 100px;
@@ -671,7 +713,7 @@ header {
 }
 
 .purchasing-head-wrap {
-  font-family: Sharp Grotesk Bold 12;
+  font-family: Sharp Grotesk Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -683,10 +725,34 @@ header {
   padding-top: 100px;
 }
 
+@media (max-width: 500px) {
+  .purchasing-head-wrap {
+    font-size: 29px;
+    line-height: 37px;
+  }
+}
 .purchasing-content {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+}
+
+.item-purchasing {
+  height: 255px;
+  width: 325px;
+  background: linear-gradient(144.06deg, #232323 0%, #151515 100%);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.item-content-wrap {
+  font-family: Favorit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
 }
 
 @media (max-width: 1000px) {
@@ -706,15 +772,12 @@ header {
     margin-bottom: 78px;
   }
 }
-.item-purchasing {
-  height: 255px;
-  width: 325px;
-  background: linear-gradient(144.06deg, #232323 0%, #151515 100%);
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+@media (max-width: 500px) {
+  .item-content-wrap {
+    font-size: 13px;
+    line-height: 19px;
+  }
 }
-
 .item-purchasing-headler {
   height: 43%;
   border-bottom: 1px solid;
@@ -747,16 +810,6 @@ header {
   margin-top: 25px;
 }
 
-.item-content-wrap {
-  font-family: Favorit;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-}
-
 .slide-item-acting {
   width: 500px;
   overflow: hidden;
@@ -770,6 +823,7 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .footer-content {
@@ -796,7 +850,6 @@ footer {
   flex-direction: column;
   height: 119px;
 }
-
 .reference-list a {
   margin: auto auto auto 0;
   color: white;
@@ -895,7 +948,7 @@ body {
 
 .slide-headler {
   color: white;
-  font-family: Sharp Grotesk Bold 12;
+  font-family: Sharp grotesk bold;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -905,6 +958,12 @@ body {
   margin-left: 10px;
 }
 
+@media (max-width: 500px) {
+  .slide-headler {
+    font-size: 29px;
+    line-height: 37px;
+  }
+}
 .navy {
   z-index: 2;
   height: 14px;
@@ -913,6 +972,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 40px;
+}
+
+footer {
+  display: none;
 }
 
 /*# sourceMappingURL=myStyle.css.map */

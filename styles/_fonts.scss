@@ -4,6 +4,22 @@
 //     src: url("../Fonts/favoritbookc.otf");
 // }
 @font-face {
-    font-family: Sharp Grotesk Bold 11;
-    src: url("Fonts/SharpGroteskBold11-Regular.ttf");
+    font-family: Favorit;
+    font-weight: 300px;
+    src: url("../Fonts/favorit_light-webfont.woff");
+}
+@font-face {
+    font-family: Favorit;
+    font-weight: 300;
+    src: url("../Fonts/favorit_light-webfont.woff2");
+}
+@font-face {
+    font-family: Sharp grotesk bold;
+    font-weight: 500;
+    src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff");
+}
+@font-face {
+    font-family: Sharp grotesk bold;
+    font-weight: 500;
+    src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff2");
 }

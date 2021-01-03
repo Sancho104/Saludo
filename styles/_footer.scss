@@ -1,6 +1,7 @@
 footer {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .footer-content {
     padding-top: 125px;
@@ -23,8 +24,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 119px;
-}
-.reference-list a {
+  a {
     margin: auto auto auto 0;
     color: white;
     text-decoration: none;
@@ -34,6 +34,8 @@ footer {
     font-size: 14px;
     line-height: 17px;
 }
+}
+
 .talent {
     width: 42%;
     display: flex;
@@ -63,20 +65,16 @@ footer {
 
 
 .talent-button-item {
-    // font-family: Favorit;
-    // font-style: normal;
-    // font-weight: bold;
-    // line-height: 12px;
 
     text-transform: uppercase;
     
-    color: #222;
+    color: $color-background-footer;
     font-family: Favorit;
     font-size: 10px;
     line-height: 33px;
     text-decoration: none;
     position: absolute;
-    background: linear-gradient(180deg, #7fefcf 0%, #69dbc3 100%);
+    background: linear-gradient(180deg, $color-button-green 0%, #69dbc3 100%);
     outline: none;
     text-align: center;
     border-radius: 100px;

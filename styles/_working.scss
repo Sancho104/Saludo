@@ -1,7 +1,7 @@
 .work-container {
     width: 95%;
     margin: auto;
-    background: #0a0a0a;
+    background: $color-background-content;
 }
 .work-headler {
     height: 200px;
@@ -12,7 +12,7 @@
 }
 .work-headler span {
     color: white;
-    font-family: Sharp Grotesk Bold 12;
+    font-family: Sharp Grotesk bold;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -111,5 +111,9 @@
 @media (max-width: 400px) {
     .work-item {
         width: 272px;
+    }
+    .work-item-content-text {
+        font-size: 15px;
+        line-height: 19px;
     }
 }
