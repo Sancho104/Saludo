@@ -7,7 +7,7 @@ footer {
     padding-top: 125px;
     padding-bottom: 90px;
     display: flex;
-    background-color: #222;
+    background-color: $color-background-footer;
 }
 .reference {
     display: flex;
@@ -15,10 +15,14 @@ footer {
     // align-items: center;
     width: 50%;
 }
-.reference-saludo {
-    font-size: 32px;
-    color: white;
+.reference-saludo, .reference-talent {
+    font-size: 36px;
+    line-height: 46px;
+    color: $color-text;
     text-transform: uppercase;
+    font-family: SharpGroteskBold;
+    font-style: normal;
+    font-weight: 700;
 }
 .reference-list {
   display: flex;
@@ -26,7 +30,7 @@ footer {
   height: 119px;
   a {
     margin: auto auto auto 0;
-    color: white;
+    color: $color-text;
     text-decoration: none;
     font-family: Favorit;
     font-style: normal;
@@ -41,13 +45,8 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-.reference-talent {
-    font-size: 32px;
-    color: white;
-    text-transform: uppercase;
-}
 .talent-text {
-    color: #D1D1D1;
+    color: $color-text;
     font-family: Favorit;
     font-style: normal;
     font-weight: 300;
@@ -83,19 +82,43 @@ footer {
 }
 
 .footer-links {
-    background-color: #181818;
+    background-color: $color-background;
     height: 82px;
+    display: flex;
 }
-
+.rights {
+    width: 52%;
+    display: flex;
+    align-items: center;
+}
+.rights-text-wrap {
+    margin-left: 20%;
+}
+.social-network {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .network-links {
-
+    width: 94px;
+    display: flex;
+    justify-content: space-between;
 }
-.network-text {
+.network-text, .rights-text-wrap {
     font-family: Favorit;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 11px;
     line-height: 15px;
     text-align: right;
-    color: #FFFFFF;
+    color: $color-text;
+}
+.network-text {
+    margin-right: 20%;
+}
+@media(max-width: 1100px) {
+    .footer-content {
+        flex-direction: column;
+    }
 }

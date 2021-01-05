@@ -72,7 +72,7 @@ header {
 }
 
 .search i:hover {
-    color: blue;
+    color: $color-button-green;
 }
 .vertical-line-container {
     margin: auto 20px;
@@ -161,45 +161,4 @@ header {
     .head-slide {
         height: 300px;
     }
-}
-
-.user-menu-wrap {
-    position: absolute;
-    top: 80px;
-    width: 320px;
-    height: 160px;
-    right: 0;
-    background-color: $color-background;
-}
-.user-menu {
-    width: 82%;
-    margin: auto;
-}
-.signup-wrap {
-    margin-left: calc(50% - 25px); 
-    margin-top: 33px;
-    margin-bottom: 27px;
-}
-.signup {
-    color: $color-button-green;
-}
-// .user-hr-wrap {
-//     margin-top: 13px;
-//     margin-bottom: 13px;
-// }
-.login-wrap {
-    margin-top: 25px;
-    margin-bottom: 35px;
-    margin-left: calc(50% - 20px);
-}
-.login {
-    color: $color-text;
-}
-.user-links {
-
-    font-family: Favorit;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
 }

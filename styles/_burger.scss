@@ -32,13 +32,14 @@
     right: 25px;
     cursor: pointer;
 }
-.menu-hr {
+// .menu-hr {
     // margin-top: 12px;
     // margin-bottom: 13px;
-    hr {
-        background-color: rgba($color: $color-text, $alpha: 0.3);
-        height: 1px;
-    }
+// }
+hr {
+    background-color: rgba($color: $color-text, $alpha: 0.3);
+    height: 1px;
+    border: none;
 }
 .menu-works-wrap {
     margin-top: 26px;
@@ -80,4 +81,9 @@
     line-height: 32px;
     text-transform: uppercase;
     color: $color-text;
+}
+@media(max-width: 500px) {
+    .burger-menu-wrap {
+        top: 68px;
+    }
 }

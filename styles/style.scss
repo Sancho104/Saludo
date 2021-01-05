@@ -12,6 +12,7 @@
 @import "footer";
 @import "burger";
 @import "hamburgers";
+@import "user-menu";
 // @import "path/to/hamburgers";
 * {
     // border:1px solid red; 
@@ -78,9 +79,9 @@ body {
 // header {
 //     display: none;
 // }
-footer {
-    display: none;
-}
+// footer {
+//     display: none;
+// }
 .hidden {
     display: none;
 }

@@ -19,6 +19,16 @@
   font-weight: 700;
   src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff2");
 }
+@font-face {
+  font-family: Favorit;
+  font-weight: 500;
+  src: url("../Fonts/favorit_medium-webfont.woff2");
+}
+@font-face {
+  font-family: Favorit;
+  font-weight: 500;
+  src: url("../Fonts/favorit_medium-webfont.woff2");
+}
 header {
   background-color: #131313;
   opacity: 0.9;
@@ -98,7 +108,7 @@ header {
 }
 
 .search i:hover {
-  color: blue;
+  color: #7fefcf;
 }
 
 .vertical-line-container {
@@ -195,48 +205,6 @@ header {
     height: 300px;
   }
 }
-.user-menu-wrap {
-  position: absolute;
-  top: 80px;
-  width: 320px;
-  height: 160px;
-  right: 0;
-  background-color: #181818;
-}
-
-.user-menu {
-  width: 82%;
-  margin: auto;
-}
-
-.signup-wrap {
-  margin-left: calc(50% - 25px);
-  margin-top: 33px;
-  margin-bottom: 27px;
-}
-
-.signup {
-  color: #7fefcf;
-}
-
-.login-wrap {
-  margin-top: 25px;
-  margin-bottom: 35px;
-  margin-left: calc(50% - 20px);
-}
-
-.login {
-  color: white;
-}
-
-.user-links {
-  font-family: Favorit;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .head-slider-container {
   width: 100%;
   margin-top: 80px;
@@ -337,6 +305,16 @@ header {
   font-family: SharpGroteskBold;
   font-weight: 700;
   src: url("../Fonts/sharpgroteskbold12-regular-webfont.woff2");
+}
+@font-face {
+  font-family: Favorit;
+  font-weight: 500;
+  src: url("../Fonts/favorit_medium-webfont.woff2");
+}
+@font-face {
+  font-family: Favorit;
+  font-weight: 500;
+  src: url("../Fonts/favorit_medium-webfont.woff2");
 }
 .charitty-container {
   width: 95%;
@@ -881,10 +859,14 @@ footer {
   width: 50%;
 }
 
-.reference-saludo {
-  font-size: 32px;
+.reference-saludo, .reference-talent {
+  font-size: 36px;
+  line-height: 46px;
   color: white;
   text-transform: uppercase;
+  font-family: SharpGroteskBold;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .reference-list {
@@ -909,14 +891,8 @@ footer {
   justify-content: space-around;
 }
 
-.reference-talent {
-  font-size: 32px;
-  color: white;
-  text-transform: uppercase;
-}
-
 .talent-text {
-  color: #D1D1D1;
+  color: white;
   font-family: Favorit;
   font-style: normal;
   font-weight: 300;
@@ -948,18 +924,51 @@ footer {
 .footer-links {
   background-color: #181818;
   height: 82px;
+  display: flex;
 }
 
-.network-text {
+.rights {
+  width: 52%;
+  display: flex;
+  align-items: center;
+}
+
+.rights-text-wrap {
+  margin-left: 20%;
+}
+
+.social-network {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.network-links {
+  width: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.network-text, .rights-text-wrap {
   font-family: Favorit;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 11px;
   line-height: 15px;
   text-align: right;
-  color: #FFFFFF;
+  color: white;
 }
 
+.network-text {
+  margin-right: 20%;
+}
+
+@media (max-width: 1100px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
 .burger-menu-wrap {
   width: 320px;
   height: 600px;
@@ -1001,9 +1010,10 @@ footer {
   cursor: pointer;
 }
 
-.menu-hr hr {
+hr {
   background-color: rgba(255, 255, 255, 0.3);
   height: 1px;
+  border: none;
 }
 
 .menu-works-wrap {
@@ -1053,6 +1063,11 @@ footer {
   color: white;
 }
 
+@media (max-width: 500px) {
+  .burger-menu-wrap {
+    top: 68px;
+  }
+}
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -1901,6 +1916,60 @@ footer {
   transform: rotate(-90deg);
 }
 
+.user-menu-wrap {
+  position: absolute;
+  top: 80px;
+  width: 320px;
+  height: 160px;
+  right: 0;
+  background-color: #181818;
+}
+
+.user-menu {
+  width: 82%;
+  margin: auto;
+}
+
+.signup-wrap {
+  margin-left: calc(50% - 25px);
+  margin-top: 33px;
+  margin-bottom: 27px;
+}
+
+.signup {
+  color: #7fefcf;
+}
+
+.user-hr {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+.login-wrap {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  margin-left: calc(50% - 20px);
+}
+
+.login {
+  color: white;
+}
+
+.user-links {
+  text-decoration: none;
+  font-family: Favorit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width: 500px) {
+  .user-menu-wrap {
+    top: 68px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1955,10 +2024,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 40px;
-}
-
-footer {
-  display: none;
 }
 
 .hidden {
