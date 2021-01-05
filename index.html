@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/myStyle.css">
-    <!-- <link rel="stylesheet" href="styles/hamburgers.css"> -->
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/script.js" defer></script>
@@ -18,13 +17,13 @@
     <header>
 
         <div class="burger">
-            <!-- <div class="burger-icon"> -->
-                <button class="burger-icon hamburger hamburger--collapse is-active" type="button">
+            <div class="burger-icon-wrap">
+                <button class="burger-icon hamburger hamburger--collapse " type="button">
                     <span class="hamburger-box">
                       <span class="hamburger-inner"></span>
                     </span>
                   </button>
-            <!-- </div> -->
+            </div>
             <div class="burger-menu-wrap hidden">
                 <div class="burger-menu ">
 
@@ -110,9 +109,23 @@
             </div>
 
             <div class="user user-display">
-                <button>
-                    <img src="img/User (filled).png" alt="user">
+                <button class="user-menu-button">
+                    <img src="img/User icon.svg" alt="user">
                 </button>
+                <div class="user-menu-wrap hidden">
+                    <div class="user-menu">
+                        <div class="signup-wrap">
+                            <a href="#" class="signup user-links">Signup</a>
+                        </div>
+                        <div class="user-hr-wrap">
+                            <hr class="user-hr">
+                        </div>
+                        <div class="login-wrap">
+                            <a href="#" class="login user-links">Login</a>
+                        </div>
+                    </div>
+                  
+                </div>
             </div>
         </div>
 
@@ -1067,14 +1080,7 @@
             </div>
         </div>
     </footer>
-    <script>
-//  let burger = document.querySelector('.burger-icon');
-//         let menu = document.querySelector('.burger-menu-wrap');
-//         burger.addEventListener('click', function() {
-//               menu.classList.toggle('burger-block');
 
-        // })
-    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/slick/slick.min.js"></script>
     <script src="js/script.js"></script>

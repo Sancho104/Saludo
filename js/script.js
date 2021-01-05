@@ -320,3 +320,9 @@ $('.slider').slick({
 		});
 	});
 
+	$(document).ready(function() {
+		$('.user-menu-button').click(function() {
+			$('.user-menu-wrap').toggleClass('block');
+		});
+	});
+
