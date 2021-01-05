@@ -10,6 +10,9 @@
 @import "purchasing";
 @import "slider-acting";
 @import "footer";
+@import "burger";
+@import "hamburgers";
+// @import "path/to/hamburgers";
 * {
     // border:1px solid red; 
     margin: 0;
@@ -44,7 +47,7 @@ body {
 }
 .slide-headler {
     color: white;
-    font-family: Sharp grotesk bold;
+    font-family: SharpGroteskBold;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;

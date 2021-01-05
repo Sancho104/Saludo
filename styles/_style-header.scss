@@ -67,7 +67,7 @@ header {
 .search > i {
     position: relative;
     left: 40px;
-    top: 3px;
+    // top: 3px;
     transform: scale(1.1);
 }
 
@@ -82,7 +82,7 @@ header {
 .vertical-line-container > .line {
     width: 1px;
     height: 40px;
-    background: #ffffff;
+    background: $color-text;
     opacity: 0.15;
     margin: auto;
     border: none;
@@ -113,11 +113,14 @@ header {
     display: none;
 }
 @media (max-width: 1420px) {
-    .options {
-        width: 250px;
-    }
+
     .head-slide {
         height: 700px;
+    }
+}
+@media (max-width: 1000px) {
+    .options {
+        width: 250px;
     }
 }
 @media (max-width: 850px) {

@@ -301,5 +301,22 @@ $('.slider').slick({
 	  
 	//   setProgress(0);
 
+	$(document).ready(function() {
+		$('.burger-icon').click(function() {
+			$('.burger-menu-wrap').toggleClass('block');
+			$('.hamburger').toggleClass('is-active');
+		});
+	});
+	
+	$(document).ready(function() {
+		$('.menu-categories-headler-wrap').click(function() {
+			$('.menu-catrgories-list').toggleClass('block');
+		});
+	});
 
+	$(document).ready(function() {
+		$('.menu-purchasing-headler-wrap').click(function() {
+			$('.menu-purchasing-list').toggleClass('block');
+		});
+	});
 
