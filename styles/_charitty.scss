@@ -78,6 +78,10 @@
         line-height: 17px;
         letter-spacing: 1px;
         text-transform: uppercase;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: $color-button-blue-hover;
     }
 }
 

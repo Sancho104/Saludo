@@ -1,6 +1,10 @@
+.head-container {
+    height: auto;
+}
 .head-slider-container {
     width: 100%;
     margin-top: 80px;
+    // height: 90%;
 }
 .head-slider {
     overflow: hidden;
@@ -9,14 +13,39 @@
     float: left;
     background-size: cover;
     width: 100%;
-    height: 816px;
+    // height: 816px;
     // background: no-repeat  ;
 }
-.head-slide-bc {
+.head-slider-bc {
     background-size: cover;
-    background-color: rgba($color: #000000, $alpha: 0.6);
+    background-color: rgba($color: $color-background-header, $alpha: 0.6);
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-slider-content {
+    width: 70%;
+}
+.head-slider-headler {
+    font-family: Favorit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: center;   
+    color: $color-text;
+}
+.head-slider-text {
+    margin-top: 15px;
+    font-family: Favorit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: $color-text-grey;
 }
 .progress-container {
     display: flex;
@@ -73,4 +102,13 @@
 }
 .head-next {
     border-left: 0.5px solid rgba($color: #fff, $alpha: 0.15);
+}
+@media(max-width: 500px) {
+    .navy-button-head {
+        display: none;
+    }
+    .head-slider-progress {
+        margin: auto;
+        
+    }
 }

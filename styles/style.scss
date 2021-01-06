@@ -15,7 +15,7 @@
 @import "user-menu";
 // @import "path/to/hamburgers";
 * {
-    // border:1px solid red; 
+    // border:1px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,13 +24,6 @@ body {
     background-color: #181818;
     overflow-x: hidden;
 }
-
-// .head-container {
-//     background-color: rgba(0, 0, 0, 0.6);
-//     background-size: cover;
-//     height: 800px;
-//     margin-top: 80px;
-// }
 
 .slider-index {
     overflow: hidden;
@@ -44,7 +37,7 @@ body {
 .slide-head {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .slide-headler {
     color: white;
@@ -57,15 +50,12 @@ body {
     text-transform: uppercase;
     margin-left: 10px;
 }
-@media(max-width:500px) {
+@media (max-width: 500px) {
     .slide-headler {
         font-size: 29px;
-        line-height: 37px; 
+        line-height: 37px;
     }
 }
-// .slide-headler-enter {
-//     overflow-wrap:break-word;
-// }
 
 .navy {
     z-index: 2;
@@ -76,21 +66,9 @@ body {
     justify-content: space-between;
     margin-right: 40px;
 }
-// header {
-//     display: none;
-// }
-// footer {
-//     display: none;
-// }
 .hidden {
     display: none;
 }
 .block {
     display: block;
 }
-
-
-
-
-
-

@@ -15,8 +15,7 @@ footer {
     // align-items: center;
     width: 50%;
 }
-.reference-saludo,
-.reference-talent {
+.reference-saludo, .reference-talent {
     font-size: 36px;
     line-height: 46px;
     color: $color-text;
@@ -57,6 +56,7 @@ footer {
     font-weight: 300;
     font-size: 12px;
     line-height: 17px;
+    color: $color-text-grey;
 }
 .talent-button {
 }
@@ -71,6 +71,8 @@ footer {
 
     color: $color-background-footer;
     font-family: Favorit;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10px;
     line-height: 33px;
     text-decoration: none;
@@ -81,6 +83,9 @@ footer {
     border-radius: 100px;
     width: 149px;
     height: 33px;
+}
+.talent-button-item:hover {
+    background: $color-button-green-hover;
 }
 
 .footer-links {
@@ -160,7 +165,7 @@ footer {
     }
     .reference {
         flex-direction: column;
-        width: 100%;
+        width: 95%;
     }
     .contact-us {
         display: block;
@@ -169,12 +174,10 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .box2,
-    .box3 {
+    .box2, .box3 {
         grid-column-start: 1;
     }
-    .box4,
-    .box5 {
+    .box4,.box5 {
         grid-column-start: 2;
     }
     .box4 {

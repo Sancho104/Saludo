@@ -205,6 +205,10 @@ header {
     height: 300px;
   }
 }
+.head-container {
+  height: auto;
+}
+
 .head-slider-container {
   width: 100%;
   margin-top: 80px;
@@ -218,14 +222,41 @@ header {
   float: left;
   background-size: cover;
   width: 100%;
-  height: 816px;
 }
 
-.head-slide-bc {
+.head-slider-bc {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-slider-content {
+  width: 70%;
+}
+
+.head-slider-headler {
+  font-family: Favorit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 72px;
+  text-align: center;
+  color: white;
+}
+
+.head-slider-text {
+  margin-top: 15px;
+  font-family: Favorit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #D1D1D1;
 }
 
 .progress-container {
@@ -286,6 +317,15 @@ header {
   border-left: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 
+@media (max-width: 500px) {
+  .navy-button-head {
+    display: none;
+  }
+
+  .head-slider-progress {
+    margin: auto;
+  }
+}
 @font-face {
   font-family: Favorit;
   font-weight: 300px;
@@ -395,6 +435,10 @@ header {
   line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.charitty-button-wrap button:hover {
+  background-color: #0059a8;
 }
 
 @media (max-width: 1300px) {
@@ -440,13 +484,6 @@ header {
     line-height: 25px;
   }
 }
-.slide-head {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
 .navy-button {
   outline: none;
   border: none;
@@ -859,8 +896,7 @@ footer {
   width: 50%;
 }
 
-.reference-saludo,
-.reference-talent {
+.reference-saludo, .reference-talent {
   font-size: 36px;
   line-height: 46px;
   color: white;
@@ -904,6 +940,7 @@ footer {
   font-weight: 300;
   font-size: 12px;
   line-height: 17px;
+  color: #D1D1D1;
 }
 
 .talent-button-wrap {
@@ -915,6 +952,8 @@ footer {
   text-transform: uppercase;
   color: #222;
   font-family: Favorit;
+  font-style: normal;
+  font-weight: bold;
   font-size: 10px;
   line-height: 33px;
   text-decoration: none;
@@ -925,6 +964,10 @@ footer {
   border-radius: 100px;
   width: 149px;
   height: 33px;
+}
+
+.talent-button-item:hover {
+  background: #49efcf;
 }
 
 .footer-links {
@@ -1017,7 +1060,7 @@ footer {
 
   .reference {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
   }
 
   .contact-us {
@@ -1029,13 +1072,11 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  .box2,
-.box3 {
+  .box2, .box3 {
     grid-column-start: 1;
   }
 
-  .box4,
-.box5 {
+  .box4, .box5 {
     grid-column-start: 2;
   }
 
@@ -1068,6 +1109,7 @@ footer {
   }
 }
 .burger-menu-wrap {
+  left: 0;
   width: 320px;
   height: 600px;
   position: absolute;
@@ -2093,7 +2135,7 @@ body {
 .slide-head {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .slide-headler {
