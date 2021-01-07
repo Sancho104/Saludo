@@ -1,10 +1,12 @@
 .head-container {
     height: auto;
+    background-size: cover;
 }
 .head-slider-container {
     width: 100%;
     margin-top: 80px;
     // height: 90%;
+    background-size: cover;
 }
 .head-slider {
     overflow: hidden;
@@ -12,9 +14,10 @@
 .head-slide {
     float: left;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     // height: 816px;
-    // background: no-repeat  ;
 }
 .head-slider-bc {
     background-size: cover;
@@ -110,5 +113,18 @@
     .head-slider-progress {
         margin: auto;
         
+    }
+    .head-slider-headler {
+        font-size: 48px;
+        line-height: 57px;
+    }
+    .head-slider-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media(max-width: 375px) {
+    .head-slider-progress {
+        display: none;
     }
 }

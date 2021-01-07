@@ -35,11 +35,14 @@ header {
     width: 323px;
     display: flex;
     justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: $color-text;
+        font-family: favorit;
+    }
 }
-.options a {
-    text-decoration: none;
-    color: white;
-    font-family: favorit;
+.options a:hover {
+    opacity: 0.6;
 }
 .search-account {
     display: flex;
@@ -63,6 +66,9 @@ header {
     border: none;
     outline: none;
     padding-left: 50px;
+}
+.search input:focus::-webkit-input-placeholder {
+    color: transparent;
 }
 .search > i {
     position: relative;
@@ -92,6 +98,9 @@ header {
     background: inherit;
     border: none;
     outline: none;
+}
+.account > .signup:hover {
+    color: #78efcf;
 }
 .account > .login {
     color: white;

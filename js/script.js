@@ -303,26 +303,30 @@ $('.slider').slick({
 
 	$(document).ready(function() {
 		$('.burger-icon').click(function() {
-			$('.burger-menu-wrap').toggleClass('block');
+			// $('.burger-menu-wrap').toggleClass('block');
 			$('.hamburger').toggleClass('is-active');
+			$('.burger-menu-wrap').slideToggle(400);
 		});
 	});
 	
 	$(document).ready(function() {
 		$('.menu-categories-headler-wrap').click(function() {
-			$('.menu-catrgories-list').toggleClass('block');
+			// $('.menu-catrgories-list').toggleClass('block');
+			$('.menu-catrgories-list').slideToggle(300);
 		});
 	});
 
 	$(document).ready(function() {
 		$('.menu-purchasing-headler-wrap').click(function() {
-			$('.menu-purchasing-list').toggleClass('block');
+			// $('.menu-purchasing-list').toggleClass('block');
+			$('.menu-purchasing-list').slideToggle(300);
 		});
 	});
 
 	$(document).ready(function() {
 		$('.user-menu-button').click(function() {
-			$('.user-menu-wrap').toggleClass('block');
+			// $('.user-menu-wrap').toggleClass('block');
+			$('.user-menu-wrap').slideToggle(400);
 		});
 	});
 

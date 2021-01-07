@@ -68,11 +68,14 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 .options a {
   text-decoration: none;
   color: white;
   font-family: favorit;
+}
+
+.options a:hover {
+  opacity: 0.6;
 }
 
 .search-account {
@@ -99,6 +102,10 @@ header {
   border: none;
   outline: none;
   padding-left: 50px;
+}
+
+.search input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
 
 .search > i {
@@ -130,6 +137,10 @@ header {
   background: inherit;
   border: none;
   outline: none;
+}
+
+.account > .signup:hover {
+  color: #78efcf;
 }
 
 .account > .login {
@@ -207,11 +218,13 @@ header {
 }
 .head-container {
   height: auto;
+  background-size: cover;
 }
 
 .head-slider-container {
   width: 100%;
   margin-top: 80px;
+  background-size: cover;
 }
 
 .head-slider {
@@ -221,6 +234,8 @@ header {
 .head-slide {
   float: left;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
@@ -324,6 +339,21 @@ header {
 
   .head-slider-progress {
     margin: auto;
+  }
+
+  .head-slider-headler {
+    font-size: 48px;
+    line-height: 57px;
+  }
+
+  .head-slider-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 375px) {
+  .head-slider-progress {
+    display: none;
   }
 }
 @font-face {
@@ -694,8 +724,8 @@ header {
   font-family: Favorit;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 19px;
   text-align: center;
 }
 
@@ -799,7 +829,8 @@ header {
   width: 325px;
   background: linear-gradient(144.06deg, #232323 0%, #151515 100%);
   border-radius: 10px;
-  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .item-content-wrap {
