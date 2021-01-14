@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="styles/myStyle.css">
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/script.js" defer></script>
 
     <title>Document</title>
 </head>
+
 <body>
 
     <header>
+
         <div class="burger">
+            <div class="burger-icon-wrap">
+                <button class="burger-icon hamburger hamburger--collapse " type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="burger-menu-wrap hidden">
+                <div class="burger-menu ">
+
+                    <!-- <div class="search-menu-wrap"> -->
+                    <div class="search search-menu">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search for a name or title">
+
+                    </div>
+                    <!-- </div> -->
+                    <div class="menu-categories-wrap">
+                        <div class="menu-categories-headler-wrap">
+                            <span class="menu-headler menu-headler-categories">Categories</span>
+                            <span class="menu-headler-icon"><img src="img/Down arrow.svg" alt=""></span>
+                        </div>
+                        <div class="menu-catrgories-list-wrap">
+                            <ul class="menu-catrgories-list hidden">
+                                <li>Acting</li>
+                                <li>Music</li>
+                                <li>Entertainment</li>
+                                <li>Sport</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-purchasing-wrap">
+                        <div class="menu-purchasing-headler-wrap">
+                            <span class="menu-headler menu-headler-purchasing">purchasing options</span>
+                            <span class="menu-headler-icon"><img src="img/Down arrow.svg" alt=""></span>
+                        </div>
+                        <div class="menu-purchasing-list-wrap">
+                            <ul class="menu-purchasing-list hidden">
+                                <li>Raffle</li>
+                                <li>Auction</li>
+                                <li>Buy now</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="menu-hr-wrap"> -->
+                    <hr class="menu-hr">
+                    <!-- </div> -->
+                    <div class="menu-works-wrap">
+                        <span class="menu-headler">How it works</span>
+                    </div>
+                    <div class="menu-charitty-wrap">
+                        <span class="menu-headler">Charity</span>
+                    </div>
+                    <div class="menu-coronaout-wrap">
+                        <span class="menu-headler">#CoronaOut</span>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
+
         <div class="head-right">
             <div class="logo">
                 <a href="#">
@@ -29,10 +92,10 @@
                 <a href="#">#CoronaOut</a>
             </div>
             <div class="search-account">
-                <div class="search">   
-                    <i class="fas fa-search"></i>                        
+                <div class="search">
+                    <i class="fas fa-search"></i>
                     <input type="text" placeholder="Search for a name or title">
-                    
+
                 </div>
 
                 <div class="vertical-line-container">
@@ -46,50 +109,94 @@
             </div>
 
             <div class="user user-display">
-                <button>
-                    <img src="img/User (filled).png" alt="user">
+                <button class="user-menu-button">
+                    <img src="img/User icon.svg" alt="user">
                 </button>
+                <div class="user-menu-wrap hidden">
+                    <div class="user-menu">
+                        <div class="signup-wrap">
+                            <a href="#" class="signup user-links">Signup</a>
+                        </div>
+                        <!-- <div class="user-hr-wrap"> -->
+                        <hr class="user-hr">
+                        <!-- </div> -->
+                        <div class="login-wrap">
+                            <a href="#" class="login user-links">Login</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
     </header>
 
     <div class="head-container">
-        <div class="head">
 
-            <div class="head-slider-container">
-                <div class="head-slider">
+        <div class="head-slider-container">
+            <div class="head-slider">
 
-                    <div class="head-slide" style="background-image: url('img/image 11.png')">
-                      
-                        <div class="head-slide-bc"></div>
-                    </div>
-                    <div class="head-slide" style="background-image: url('img/image 11.png')">
-                      
-                        <div class="head-slide-bc"></div>
-                    </div>
-                    <div class="head-slide" style="background-image: url('img/image 11.png')">
-                      
-                        <div class="head-slide-bc"></div>
+                <div class="head-slide" style="background-image: url('img/slide title.svg')">
+
+                    <div class="head-slider-bc">
+                        <div class="head-slider-content">
+                            <div class="head-slider-headler">
+                                Saludo+ Moment
+                            </div>
+                            <div class="head-slider-text">
+                                A unique, short personalised video message that creates a thrilling and inspiring
+                                memory  for fans around tthe world. 
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+                <div class="head-slide" style="background-image: url('img/slide title.svg')">
 
-
-            </div>
-            <div class="navy-button-head"></div>
-
-            <div class="head-slider-progress">
-                <div class="progress-container">
-                    <span class="progress-number">01</span>
-                    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                   
-
-                    <span class="slider__label sr-only"></span>
-                    <span class="progress-number">03</span>
+                    <div class="head-slider-bc">
+                        <div class="head-slider-content">
+                            <div class="head-slider-headler">
+                                Saludo+ Moment
+                            </div>
+                            <div class="head-slider-text">
+                                A unique, short personalised video message that creates a thrilling and inspiring
+                                memory  for fans around tthe world. 
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="head-slide" style="background-image: url('img/slide title.svg')">
 
+                    <div class="head-slider-bc">
+                        <div class="head-slider-content">
+                            <div class="head-slider-headler">
+                                Saludo+ Moment
+                            </div>
+                            <div class="head-slider-text">
+                                A unique, short personalised video message that creates a thrilling and inspiring
+                                memory  for fans around tthe world. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
+        <div class="navy-button-head"></div>
+
+        <div class="head-slider-progress">
+            <div class="progress-container">
+                <span class="progress-number">01</span>
+                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+
+
+                <span class="slider__label sr-only"></span>
+                <span class="progress-number">03</span>
+            </div>
+
+        </div>
+
         <!-- <div class="head-center">
             <div class="heading">
                 Saludo+ Moment
@@ -110,118 +217,124 @@
             <div class="slide-headler">
                 Saludo's super six
             </div>
-    
-            <div class="navy">
-   
+
+            <div class="navy navy-super-six">
+
             </div>
-            
+
         </div>
 
-        <div class="slider">
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    <div class="slide-gradient">
+        <div class="slider-index slider">
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+                <div class="slide-gradient">
 
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-
-                         <img src="img/icon.png" alt=""> 
-                         <a href="#" class="button-test"> SALUDO</a>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
                     </div>
-                    
+
+                    <img src="img/icon slide.svg" alt="">
+                    <a href="#" class="button-test"> SALUDO</a>
                 </div>
 
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
-                        </div>
+            </div>
 
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.png" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
 
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    
-                    <div class="slide-gradient">
-                        
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
-                        </div>
+            </div>
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
 
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
 
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">                    
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
-                        </div>
+            </div>
 
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                </div>
-
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-
-                    <div class="slide-gradient">
-
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
-                        </div>
-
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                   
-                </div>
-                <div class="slide-item" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
-                        </div>
-
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                   
-                </div>
-      
         </div>
     </div>
 
@@ -232,81 +345,82 @@
                 SALUDO CATEGORIES
             </div>
 
-            <div class="navy-categories"></div>
+            <div class="navy navy-categories"></div>
         </div>
 
-        
-                <div class="slider-categories">
-                    <div class="categories-item"  style="background-image: url('img/image\ 4.png')">
 
-                        <div class="categories-gradient">
-                            <div class="cat-grad-text">
-                                Sports
-                            </div>
-                        </div>
-        
-                    </div>
-        
-                    <div class="categories-item"  style = "background-image: url('img/image\ 4\ \(1\).png')">
+        <div class="slider-index slider-categories">
+            <div class="categories-item" style="background-image: url('img/sports.svg')">
 
-                        <div class="categories-gradient">
-                            <div class="cat-grad-text">
-                                Acting
-                            </div>
-                        </div>
-        
-                    </div>
-        
-                    <div class="categories-item"  style="background-image: url('img/image\ 4\ \(2\).png')">
-
-                        <div class="categories-gradient">
-                            <div class="cat-grad-text">
-                                Music
-                            </div>
-                        </div>
-        
-                    </div>
-        
-                    <div class="categories-item"  style="background-image: url('img/image\ 4\ \(3\).png')">
-
-                        <div class="categories-gradient">
-                            <div class="cat-grad-text">
-                                Entertainment
-                            </div>
-                        </div>
-        
+                <div class="categories-gradient">
+                    <div class="cat-grad-text">
+                        Sports
                     </div>
                 </div>
+
+            </div>
+
+            <div class="categories-item" style="background-image: url('img/acting.svg')">
+
+                <div class="categories-gradient">
+                    <div class="cat-grad-text">
+                        Acting
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="categories-item" style="background-image: url('img/music.svg')">
+
+                <div class="categories-gradient">
+                    <div class="cat-grad-text">
+                        Music
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="categories-item" style="background-image: url('img/entertaiment.svg')">
+
+                <div class="categories-gradient">
+                    <div class="cat-grad-text">
+                        Entertainment
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <div class="work-container">
         <div class="work-headler">
-            <span>How it works</span>    
+            <span>How it works</span>
         </div>
         <div class="work-content">
             <div class="work-item">
                 <div class="work-item-img">
 
-                    <img src="img/image 5.png" alt="">
+                    <!-- <img src="img/search star.svg" alt=""> -->
                 </div>
                 <div class="work-item-content">
                     <div class="work-img-container">
-                        <img src="img/Group 2.png" alt="">
+                        <img src="img/search.svg" alt="">
                     </div>
                     <div class="work-item-content-text">
+
                         1. Find the global <br> Talent you want.
                     </div>
                 </div>
             </div>
-      
+
             <div class="work-item">
                 <div class="work-item-img">
-                    <img src="img/image 6.png" alt="">
+                    <!-- <img src="img/provide context.svg" alt=""> -->
                 </div>
                 <div class="work-item-content">
 
                     <div class="work-img-container">
-                        <img src="img/Group.png" alt="">
+                        <img src="img/write.svg" alt="">
                     </div>
                     <div class="work-item-content-text">
                         2. Provide context <br> of the request.
@@ -317,12 +431,12 @@
 
             <div class="work-item">
                 <div class="work-item-img">
-                    <img src="img/image 7.png" alt="">
+                    <!-- <img src="img/give frends.svg" alt=""> -->
                 </div>
                 <div class="work-item-content">
 
                     <div class="work-img-container">
-                        <img src="img/Vector 1.png" alt="">
+                        <img src="img/smile.svg" alt="">
                     </div>
                     <div class="work-item-content-text">
                         3. Give friends or family a <br> thrilling memory to keep <br> and share!
@@ -331,129 +445,136 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
 
-    <div class="acting-container">
+    <div class="slider-container">
 
         <div class="slide-head">
             <div class="slide-headler">
                 Acting
             </div>
-    
-            <div class="navy-acting">                
-            </div>
-   
-            </div>
-        <div class="slider-acting">
 
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    <div class="slide-gradient">
-    
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+            <div class="navy navy-acting">
+            </div>
+
+        </div>
+        <div class="slider-index slider-acting">
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                         <img src="img/icon.png" alt=""> 
-                         <a href="#" class="button-test"> SALUDO</a>
-                    </div>
-                    
-                </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test"> SALUDO</a>
                 </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    
-                    <div class="slide-gradient">
-                        
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">                    
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-    
-                    <div class="slide-gradient">
-    
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                   
-                </div>
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-    
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
-                   
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
-      
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+
         </div>
     </div>
+
 
     <div class="purchasing-options-container">
         <div class="purchasing-options">
@@ -463,14 +584,14 @@
                     purchasing options
                 </div>
             </div>
-    
+
             <div class="purchasing-content">
                 <div class="item-purchasing">
                     <div class="item-purchasing-headler">
                         <span class="purchasing-img-wrap">
                             <img src="img/icon book.png" alt="">
                         </span>
-    
+
                         <span class="span-green">Book now</span>
                     </div>
                     <div class="item-purchasing-content">
@@ -479,7 +600,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="item-purchasing">
                     <div class="item-purchasing-headler">
                         <span class="purchasing-img-wrap">
@@ -493,13 +614,13 @@
                         </div>
                     </div>
                 </div>
-    
-                <div class="item-purchasing">
+
+                <div class="item-purchasing item-purchasing-third">
                     <div class="item-purchasing-headler">
                         <span class="purchasing-img-wrap">
                             <img src="img/icon raffle.png" alt="">
                         </span>
-    
+
                         <span class="span-violet">Enter Raffle</span>
                     </div>
                     <div class="item-purchasing-content">
@@ -508,142 +629,492 @@
                         </div>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </div>
 
-   
 
 
 
-    <div class="slider-music-container">
+    <div class="slider-container music">
 
         <div class="slide-head">
             <div class="slide-headler">
                 Music
             </div>
-    
-            <div class="navy-music">                
-            </div>
-   
-            </div>
-        <div class="slider-music">
 
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    <div class="slide-gradient">
-    
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+            <div class="navy navy-music">
+            </div>
+
+        </div>
+        <div class="slider-index slider-music">
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                         <img src="img/icon.png" alt=""> 
-                         <a href="#" class="button-test"> SALUDO</a>
-                    </div>
-                    
-                </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test"> SALUDO</a>
                 </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-                    
-                    <div class="slide-gradient">
-                        
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.png')">                    
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
-    
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-    
-                    <div class="slide-gradient">
-    
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
-                    </div>
-                   
-                </div>
-                <div class="slide-item-acting" style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.png')">
-    
-                    <div class="slide-gradient">
-                        <div class="slide-title">
-                            <div class="slide-title-headler">
-                                Maya Jama
-                            </div>
-                            <div class="slide-title-text">
-                                Television / Presenter
-                            </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
                         </div>
-    
-                        <img src="img/icon.png" alt="">
-                        <a href="#" class="button-test">SALUDO</a>
                     </div>
-                   
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
                 </div>
-      
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
-    <div class="charity-container">
-        
+
+    <div class="charitty-container">
+        <div class="charitty-headler">
+            <span>saludo+ </span>is revolutionthe way premium global <span>talent </span>
+            engage with <span>fants </span>and <span>charitty</span>
+        </div>
+        <div class="charitty-content">
+            <div class="charitty-items-wrap">
+
+                <div class="charitty-item charitty-item-top">
+                    <div class="charitty-item-icon">
+                        <img src="img/logo saludo.svg" alt="">
+                    </div>
+                    <div class="charitty-item-text">
+                        At Saludo+ we care deeply for charitty and understand the <br>
+                        importance of giving back. To this, as a company we donation <br>
+                        from everyy transaction completed to Make A Wish foundattion.
+                    </div>
+                </div>
+
+                <div class="charitty-item charitty-item-bottom">
+                    <div class="charitty-item-icon">
+                        <img src="img/make a wish.svg" alt="">
+                    </div>
+                    <div class="charitty-item-text">
+                        Alongn with contributing donations, Saludo+ facilitates all Wish<br>
+                        enhancements the charity request for free in order to create inspiring<br>
+                        and thrilling moments for terminally ill children around the world.
+                    </div>
+                </div>
+
+            </div>
+            <div class="charitty-button-wrap">
+                <button>cta</button>
+            </div>
+
+        </div>
     </div>
- 
+
+
+
+    <div class="slider-container entertainment">
+
+        <div class="slide-head">
+            <div class="slide-headler slide-headler-enter">
+                Entertainment
+            </div>
+
+            <div class="navy navy-entertainment">
+            </div>
+
+        </div>
+
+
+
+        <div class="slider-index slider-entertainment">
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test"> SALUDO</a>
+                </div>
+
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+            <div class="slide-item-acting"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="slider-container sport">
+
+        <div class="slide-head">
+            <div class="slide-headler">
+                Sport
+            </div>
+
+            <div class="navy navy-sport">
+            </div>
+
+        </div>
+        <div class="slider-index slider-sport">
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test"> SALUDO</a>
+                </div>
+
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200209.svg')">
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+            </div>
+
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.svg" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+            <div class="slide-item"
+                style="background-image: url('img/instagram.flhr3-1.fna.fbcdn.net-4462460008200208.svg')">
+
+                <div class="slide-gradient">
+                    <div class="slide-title">
+                        <div class="slide-title-headler">
+                            Maya Jama
+                        </div>
+                        <div class="slide-title-text">
+                            Television / Presenter
+                        </div>
+                    </div>
+
+                    <img src="img/icon.png" alt="">
+                    <a href="#" class="button-test">SALUDO</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="reference">
+                <div class="reference-saludo">
+                    saludo<sup>+</sup>
+                </div>
+                <div class="reference-list">
+                    <a href="#" class="box1">Purpose</a>
+                    <a href="#" class="box2">Faq</a>
+                    <a href="#" class="contact-us box3">Contact Us</a>
+                    <a href="#" class="box4">Press</a>
+                    <a href="#" class="box5">Help</a>
+
+                </div>
+            </div>
+
+            <div class="talent">
+                <div class="reference-talent">
+                    talent?
+                </div>
+                <div class="talent-text">
+                    Apply to join the Saludo+ platform to<br> engage with your fans around the globe
+                </div>
+                <div class="talent-button">
+                    <div class="talent-button-wrap">
+                        <a href="#" class="talent-button-item">Talent portal</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-links">
+            <div class="rights">
+                <div class="rights-text-wrap">
+                    2019 Saludo Ltd. All Rights Reserved.
+                </div>
+            </div>
+            <div class="social-network">
+                <div class="network-links">
+                    <a href="#"><img src="img/fa-brands_facebook.svg"></a>
+                    <a href="#"><img src="img/fa-brands_twitter.svg"></a>
+                    <a href="#"><img src="img/fa-brands_instagram.svg"></a>
+                </div>
+                <div class="network-text">Privacy &#160;| &#160;Terms</div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/> -->
 </body>
+
 </html>

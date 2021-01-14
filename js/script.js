@@ -4,7 +4,7 @@ $('.slider').slick({
 	infinite: true,
     slidesToShow: 5,
 	slidesToScroll: 1,
-	appendArrows: $('.navy'),
+	appendArrows: $('.navy-super-six'),
 	prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
 	nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 	// respondTo : 'slider',
@@ -15,8 +15,6 @@ $('.slider').slick({
 			  slidesToShow: 4,
 			  slidesToScroll: 1,
 			  infinite: true,
-			  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			}
 		  },
 		{
@@ -25,8 +23,6 @@ $('.slider').slick({
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		},
 		{
@@ -35,8 +31,6 @@ $('.slider').slick({
 			slidesToShow: 2,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		},
 		{
@@ -45,8 +39,6 @@ $('.slider').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			infinite: true,
-			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 		  }
 		}
 
@@ -58,6 +50,9 @@ $('.slider').slick({
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
+		appendArrows: $('.navy-categories'),
+		prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+		nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 		responsive: [
 	
 			{
@@ -66,9 +61,6 @@ $('.slider').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			},
 			{
@@ -77,9 +69,6 @@ $('.slider').slick({
 				slidesToShow: 2,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			},
 			{
@@ -88,21 +77,18 @@ $('.slider').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				infinite: true,
-				appendArrows: $('.navy-categories'),
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
 			  }
 			}]		
 		})
 // )
 		,
-	
-
-		$('.slider-acting').slick(
-			{
+		$('.slider-acting').slick({
 			infinite: true,
 			slidesToShow: 4,
 			slidesToScroll: 1,
+			appendArrows: $('.navy-acting'),
+			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			responsive: [
 				{
 					breakpoint: 1700,
@@ -110,9 +96,7 @@ $('.slider').slick({
 					  slidesToShow: 3,
 					  slidesToScroll: 1,
 					  infinite: true,
-					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
+
 					}
 				  },
 				{
@@ -121,9 +105,7 @@ $('.slider').slick({
 					slidesToShow: 2,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
+
 				  }
 				},
 				{
@@ -132,10 +114,7 @@ $('.slider').slick({
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
-					  appendArrows: $('.navy-acting'),
-					  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-					  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>'
-				  }
+			  }
 				}]		
 			}
 			),
@@ -154,8 +133,6 @@ $('.slider').slick({
 				  slidesToShow: 4,
 				  slidesToScroll: 1,
 				  infinite: true,
-				  prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				  nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 				}
 			  },
 			{
@@ -164,8 +141,6 @@ $('.slider').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				infinite: true,
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			},
 			{
@@ -174,8 +149,6 @@ $('.slider').slick({
 				slidesToShow: 2,
 				slidesToScroll: 1,
 				infinite: true,
-				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			},
 			{
@@ -184,14 +157,93 @@ $('.slider').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				infinite: true,
-		prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
-		nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
 			  }
 			}
 	
 		  ]
 		
 		}),
+		$('.slider-entertainment').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			appendArrows: $('.navy-entertainment'),
+			prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+			nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
+			responsive: [
+				{
+					breakpoint: 1700,
+					settings: {
+					  slidesToShow: 3,
+					  slidesToScroll: 1,
+					  infinite: true,
+
+					}
+				  },
+				{
+				  breakpoint: 1100,
+				  settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+
+				  }
+				},
+				{
+				  breakpoint: 500,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+			  }
+				}]		
+			}
+			),
+			$('.slider-sport').slick({
+				infinite: true,
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				appendArrows: $('.navy-sport'),
+				prevArrow: '<button class="navy-button"><img src="img/Line left.png"></button>',
+				nextArrow: '<button class="navy-button"><img src="img/Line right.png"></button>',
+				// respondTo : 'slider',
+				responsive: [
+					{
+						breakpoint: 1600,
+						settings: {
+						  slidesToShow: 4,
+						  slidesToScroll: 1,
+						  infinite: true,
+						}
+					  },
+					{
+					  breakpoint: 1300,
+					  settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					},
+					{
+					  breakpoint: 1000,
+					  settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					},
+					{
+					  breakpoint: 600,
+					  settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						infinite: true,
+					  }
+					}
+			
+				  ]
+				
+				})
 	)
 
 
@@ -223,31 +275,20 @@ $('.slider').slick({
 		  nextArrow: '<button class="navy-button-h head-next"><img src="img/Line right.png"></button>'
         });  
 	  });
-	//   function setProgress(index) {
-	// 	const calc = ((index + 1) / ($slider.slick('getSlick').slideCount)) * 100;
-	  
-	// 	$progressBar
-	// 	  .css('background-size', `${calc}% 100%`)
-	// 	  .attr('aria-valuenow', calc);
-	  
-	// 	$progressBarLabel.text(`${calc.toFixed(2)}% completed`);
-	//   }
-	  
-	//   const $slider = $('.slider');
-	//   const $progressBar = $('.progress');
-	//   const $progressBarLabel = $('.slider__label');
-	  
-	//   $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
-	// 	setProgress(nextSlide);
-	//   });
-	  
-	//   $slider.slick({
-	// 	slidesToShow: 3,
-	// 	slidesToScroll: 1,
-	// 	speed: 400,
-	//   });  
-	  
-	//   setProgress(0);
 
-
+	$(document).ready(function() {
+		$('.burger-icon').click(function() {
+			$('.hamburger').toggleClass('is-active');
+			$('.burger-menu-wrap').slideToggle(400);
+		});
+		$('.menu-categories-headler-wrap').click(function() {
+			$('.menu-catrgories-list').slideToggle(300);
+		});
+		$('.menu-purchasing-headler-wrap').click(function() {
+			$('.menu-purchasing-list').slideToggle(300);
+		});
+		$('.user-menu-button').click(function() {
+			$('.user-menu-wrap').slideToggle(400);
+		});
+	});
 
