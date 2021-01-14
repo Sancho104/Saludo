@@ -22,7 +22,7 @@
 @font-face {
   font-family: Favorit;
   font-weight: 500;
-  src: url("../Fonts/favorit_medium-webfont.woff2");
+  src: url("../Fonts/favorit_medium-webfont.woff");
 }
 @font-face {
   font-family: Favorit;
@@ -224,6 +224,7 @@ header {
 .head-slider-container {
   width: 100%;
   margin-top: 80px;
+  height: 90%;
   background-size: cover;
 }
 
@@ -379,7 +380,7 @@ header {
 @font-face {
   font-family: Favorit;
   font-weight: 500;
-  src: url("../Fonts/favorit_medium-webfont.woff2");
+  src: url("../Fonts/favorit_medium-webfont.woff");
 }
 @font-face {
   font-family: Favorit;
